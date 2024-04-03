@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 20px 40px;
-    background-color:#92E8F1;
+    background-color:hsl(186, 77%, 76%);
   }
   
   .header-logo {
@@ -20,7 +20,7 @@
     font-size: 22px;
     line-height: 33px;
     font-weight: 400;
-    color: #252641;
+    color: hsl(238, 27%, 20%);
     text-decoration: none;
   }
   
@@ -47,8 +47,9 @@
   }
   
   .btn-login {
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
     color: #6c6c6c;
+    padding: 10px;
   }
   
   .btn-signup {

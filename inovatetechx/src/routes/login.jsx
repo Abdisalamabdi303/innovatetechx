@@ -8,7 +8,7 @@ import Banner from '../components/Dashboard/Banner';
 
  function Login() {
     return (
-        <div>
+        <div className='loginjsx'>
             <Dashhead/>
             <SideBarLeft/>
             <Welcome/>

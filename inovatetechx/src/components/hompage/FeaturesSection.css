@@ -1,7 +1,7 @@
 /* FeaturesSection.css */
 .features-section {
     padding: 50px 0;
-    background-color: #f9f9f9; /* Or any suitable background */
+    background-color: hsl(0, 0%, 98%);  
     text-align: center;
   }
   
@@ -14,12 +14,12 @@
   
   .section-title {
     font-size: 36px;
-    color: #2f327d; /* Or any other color as per design */
+    color: #2f327d;  
   }
   
   .section-subtitle {
     font-size: 24px;
-    color: #696984; /* Or any other color as per design */
+    color: hsl(240, 11%, 46%);  
     margin-bottom: 30px;
     text-align: center;
   }
@@ -32,17 +32,17 @@
   }
   
   .feature-item {
-    background: #ffffff; /* Placeholder color; use your design specifics */
+    background: hsl(0, 0%, 100%);  
     padding: 20px;
     border-radius: 8px;
-    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1); /* Adjust as needed */
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);  
   }
  
   
   .feature-item .icn {
     height: 60px; 
     margin-bottom: 20px;
-    background: hsla(34, 95%, 49%, 1);
+    background:linear-gradient(135deg,rgb(93, 254, 254),white);
     border-radius: 50% 50%;
     display: flex;
     align-items: center;
@@ -54,14 +54,14 @@
   .feature-title {
     font-size: 30px;
     margin-bottom: 10px;
-    color: #2f327d;
+    color: hsl(238, 45%, 34%);
     font-weight: bold; 
     
   }
   
   .feature-description {
     font-size: 20px;
-    color: #696984; /* Or any other color as per design */
+    color: hsl(240, 11%, 46%);  
     font-family: sans-serif;
     line-height: 36px;
   }

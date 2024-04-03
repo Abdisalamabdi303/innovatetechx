@@ -17,8 +17,8 @@ function Section1() {
                     <Link to="/contact" className="nav-link">Contact</Link>
             </div>
                 <div className="navbar-auth">
-                    <button className="btn-login">Login</button>
-                    <button className="btn-signup">Sign Up</button>
+                    <Link to='/login'className="btn-login">Login</Link>
+                    <Link to='/signup' className="btn-signup">Sign Up</Link>
                 </div>
             </div>
                <div className="hero2-content">
@@ -29,7 +29,9 @@ function Section1() {
                     our platform. Our goal is to ensure that every learner has a
                      positive and impactful learning experience with us.
                     </p>
-                    <button className="btn-create-account">CREATE ACCOUNT</button>
+                    <button className="btn-create-account">
+                       <Link to='/signup'>CREATE ACCOUNT</Link> 
+                    </button>
                     <div className="social-links">
                         <span>Find us on</span>
                         <div className="social-icons">

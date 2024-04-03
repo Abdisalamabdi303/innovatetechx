@@ -3,7 +3,7 @@
     background-color: hsl(161, 83%, 95%);
     padding: 100px 50px;
     position: relative;
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
     text-align: center;
   }
   
@@ -27,7 +27,7 @@
   }
   
   .team-card {
-    background-color: #fff;
+    background-color: hsl(0, 0%, 100%);
     border-radius: 15px;
     padding: 20px;
     display: flex;
@@ -39,7 +39,7 @@
     width: 150px; 
     height: 100%; 
     overflow: hidden;
-    background-color: #ececec; 
+    background-color: hsl(0, 0%, 93%); 
 }
 .card-image {
     width: 100%;
@@ -56,21 +56,21 @@
   }
   
   .card-name {
-    color: #252f40;
+    color: hsl(218, 27%, 20%);
     font-weight: 600;
     font-size: 20px;
     margin: 0;
   }
   
   .card-role {
-    color: #20b486;
+    color: hsl(161, 70%, 42%);
     font-weight: 600;
     font-size: 16px;
     margin: 5px 0;
   }
   
   .card-description {
-    color: #67748e;
+    color: hsl(220, 16%, 48%);
     font-weight: 400;
     font-size: 16px;
     line-height: 1.6;

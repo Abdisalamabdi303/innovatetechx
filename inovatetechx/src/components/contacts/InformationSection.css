@@ -3,7 +3,7 @@
     display: flex;
     justify-content: space-between;
     padding: 50px;
-    background-color: #ffffff;
+    background-color: hsl(0, 0%, 100%);
    border-radius: 20px;
    box-shadow: 2px 2px 15px grey;
    margin: 50px;
@@ -18,7 +18,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 47.745px;
     font-weight: 700;
-    color: #252f40;
+    color: hsl(218, 27%, 20%);
     margin-bottom: 20px;
   }
   
@@ -26,7 +26,7 @@
     font-family: 'Open Sans', sans-serif;
     font-size: 26.525px;
     font-weight: 400;
-    color: #67748e;
+    color: hsl(220, 16%, 48%);
     margin-bottom: 40px;
   }
   
@@ -36,18 +36,18 @@
   }
   
   .contact-form label {
-    font-family: 'Open Sans', sans-serif;
+    
     font-weight: 700;
-    color: #252f40;
+    color: hsl(218, 27%, 20%);
   }
   
   .contact-form input,
   .contact-form textarea {
-    background-color: #ffffff;
-    border: 1px solid #cccccc;
+    background-color: hsl(0, 0%, 100%);
+    border: 1px solid hsl(0, 0%, 80%);
     border-radius: 4px;
     padding: 10px;
-    font-family: 'Open Sans', sans-serif;
+     
     font-size: 14px;
     color: #495057;
     margin-bottom: 20px;
@@ -55,7 +55,7 @@
   
   .send-message {
     background: linear-gradient(90deg, rgba(15, 167, 111, 1) 0%, rgba(83, 216, 210, 1) 100%);
-    color: #ffffff;
+    color: hsl(0, 0%, 100%);
     border: none;
     padding: 10px 20px;
     font-family: 'Open Sans', sans-serif;

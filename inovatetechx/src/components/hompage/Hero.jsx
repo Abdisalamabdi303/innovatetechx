@@ -1,5 +1,6 @@
 import React from 'react';
 import './Hero.css';
+import { Link } from 'react-router-dom';
 
 
 function Hero() {
@@ -11,7 +12,10 @@ function Hero() {
                 <p className="hero-description">
                     We help build and manage a team of world-class developers to bring your vision to life.
                 </p>
-                <button className="hero-cta">Start Learning</button>
+                <button className="hero-cta">
+                    <Link to='/signup'className='link'>Start Learning</Link>
+                    
+                </button>
             </div>
             <div className="hero-image">
                 <img src="webdev.png" alt="Hero" />

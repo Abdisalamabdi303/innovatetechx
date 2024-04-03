@@ -13,36 +13,30 @@ function SideBarLeft() {
     return (<>
        
         <aside className="sidebar-left">
-            <button className="menu-bar-icon" onClick={toggleSidebar}>
-                {!sidebarVisible ? (
-                <i class="fa-solid fa-bars"></i>
-                ) : (
-                    <i class="fa-regular fa-circle-xmark"></i>
-                )}
-            </button>
+            
              <div className="sidebar-menu">
-                <a href="#" className="menu-item active">
+                <Link to='/' className="menu-item">
                 <i class="fa-solid fa-house"></i>
                     <span>Home</span>
-                </a>
+                </Link>
                 <a href="#" className="menu-item">
                 <i class="fa-solid fa-list-check"></i>
                     <span>My Tasks</span>
                 </a>
-                <a href="#" className="menu-item">
+                <Link to='/contact' className="menu-item">
                 <i class="fa-solid fa-user"></i>
                     <span>Members</span>
-                </a>
+                </Link>
                 <Link to='/profile' className="menu-item">
                 <i class="fa-solid fa-gear"></i>
                     <span>Settings</span>
                 </Link>
                 <div className="menu-separator"></div>
                 <div className="menu-section-label">TEAMS</div>
-                <a href="#" className="menu-item">
+                <Link to='/contact' className="menu-item">
                 <i class="fa-solid fa-message"></i>
                     <span>Message</span>
-                </a>
+                </Link>
                 <a href="#" className="menu-item">
                 <i class="fa-solid fa-phone"></i>
                     <span>Call Meeting</span>
@@ -53,9 +47,7 @@ function SideBarLeft() {
                     <span>Log Out</span>
                 </a>
             </div>
-            <div className="sidebar-theme-toggle">
-                {/* Include moon and sun icons for dark/light theme toggle */}
-            </div>
+            
         </aside>
         </>
     );

@@ -58,7 +58,7 @@
 .blog-post-card {
   flex-basis: calc(50% - 20px);
   margin-bottom: 20px; 
-  background-color: #FFF;
+  background-color: hsl(0, 0%, 100%);
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   border-radius: 8px;
   overflow: hidden;
@@ -83,12 +83,12 @@
 .blog-post-title {
   font-size: 1.5rem;
   font-weight: bold;
-  color: #333;
+  color: hsl(0, 0%, 20%);
   margin: 10px 0;
 }
 
 .blog-post-excerpt {
-  color: #666;
+  color: hsl(0, 0%, 40%);
   font-size: 1rem;
   margin: 0;
 }

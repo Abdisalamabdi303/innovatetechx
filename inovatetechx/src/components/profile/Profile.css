@@ -1,4 +1,4 @@
-/* EditProfileSidebar.css */
+
 .edit-profile-sidebar {
     width: 95vw;  
     padding: 20px;  
@@ -30,8 +30,8 @@
   .camera-button {
     position: absolute;
     bottom: 50%; 
-    left: 50px; /* Adjust to match the design */
-    background-color: hsl(105, 95%, 54%); /* Camera button background color */
+    left: 50px;  
+    background-color: hsl(105, 95%, 54%);  
     border-radius: 50%;
     width: 30px;
     height: 30px;
@@ -50,5 +50,5 @@
     line-height: 1.2; 
   }
   
-  /* Rest of the style for profile name, status, and other components */
+   
   

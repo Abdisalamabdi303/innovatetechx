@@ -13,8 +13,8 @@ function ContactHero() {
                 <Link to="/contact" className="nav-link-contact active">Contact</Link>
             </nav>
             <div className="header-buttons-contact">
-                <button className="button login-button">Login</button>
-                <button className="button signup-button">Sign Up</button>
+                <Link to='/login'className="login-button">Login</Link>
+                <Link to='/signup' className="signup-button">Sign Up</Link>
             </div>
         </header>
         </div>
