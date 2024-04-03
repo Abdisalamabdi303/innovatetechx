@@ -1,0 +1,116 @@
+/* SidebarLeft.css */
+.sidebar-left {
+    width: 202px;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+    box-shadow: 1px 0px 3px rgb(181, 180, 180);
+    margin-top: 0%;
+  }
+
+  .sidebar-menu {
+    display: flex;
+    flex-direction: column;
+    
+  }
+  
+  .menu-item {
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #94a3b8;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 19.363636016845703px;
+    letter-spacing: 0.20000000298023224;
+    font-weight: 500;
+    margin-bottom: 8px; 
+    box-shadow: 1px 0px 3px 0px rgb(218, 214, 214);
+  }
+  
+  .menu-item.active {
+    background-color: #e0fffc; 
+    color: #252f40; 
+  }
+  
+  .menu-separator {
+    height: 1px;
+    background-color: hsl(0, 0%, 88%); 
+    margin: 12px 0;
+  }
+  
+  .menu-section-label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #1e293b;
+    letter-spacing: 1px; /* Capital case spacing */
+    text-transform: uppercase;
+    margin-bottom: 16px; /* Adjust based on design */
+  }
+ 
+.menu-item-log{
+    margin-top: 470px;
+    display: flex;
+    align-items: center;
+    gap: 16px; 
+    padding: 10px 12px;
+    text-decoration: none;
+    color: #94a3b8;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    line-height: 19.363636016845703px;
+    letter-spacing: 0.20000000298023224;
+    font-weight: 500;
+    margin-bottom: 8px;
+}
+
+
+
+@media (max-width: 768px) {
+    .sidebar-left {
+      position: fixed;
+      left: -100%; /* Initially hide sidebar off-screen */
+      top: 0;
+      height: 100%;
+      transition: left 0.3s ease;
+      z-index: 100; /* Ensure it's above other content */
+    }
+    .sidebar-left:active {
+        position: fixed;
+        left: 100%; /* Initially hide sidebar off-screen */
+        top: 0;
+        height: 100%;
+        transition: ease-in-out;
+        z-index: 100; /* Ensure it's above other content */
+      }
+  
+    .sidebar-left.visible {
+      left: 0; /* Slide in when visible */
+    }
+  
+    .menu-bar-icon {
+      display: block; /* Show the menu button on mobile */
+      position: fixed;
+      top: 100px;
+      left: 20px;
+      background: none;
+      border: none;
+      font-size: 2rem;
+      z-index: 200; /* Ensure it's above the sidebar when open */
+    }
+  
+    .menu-bar-icon img {
+      width: 24px;
+      height: auto;
+    }
+  }
+  
+  /* Hide sidebar on larger screens and only show it on mobile */
+  @media (min-width: 769px) {
+    .menu-bar-icon {
+      display: none;
+    }
+  }
+  
