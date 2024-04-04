@@ -11,6 +11,7 @@ function ContactHero() {
                 <Link to="/" className="nav-link-contact ">Home</Link>
                 <Link to="/about" className="nav-link-contact">About</Link>
                 <Link to="/contact" className="nav-link-contact active">Contact</Link>
+                <Link to='/login'className="nav-link-contact">Learn</Link>
             </nav>
             <div className="header-buttons-contact">
                 <Link to='/login'className="login-button">Login</Link>
