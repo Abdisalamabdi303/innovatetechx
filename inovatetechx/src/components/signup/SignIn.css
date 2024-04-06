@@ -12,7 +12,7 @@
 .signcont{
 	box-shadow: 2px 2px 7px rgb(217, 214, 214);
 	padding: 50px;
-	background-color: hsl(180, 97%, 41%);
+	background: linear-gradient(135deg,hsl(180, 99%, 41%),white);
 	border-radius: 15px;
 	margin: 40px;
 	
@@ -31,7 +31,7 @@
 	border: 1px rgb(209, 207, 207) solid;
 	box-shadow: 1px 1px rgb(204, 200, 200);
 	border-radius: 3px;
-	mix-blend-mode: lighten;
+	mix-blend-mode: luminosity;
 }
 .loginbtn{
 	background: linear-gradient(90deg, rgba(15, 167, 111, 1) 0%, rgb(2, 183, 174) 100%);

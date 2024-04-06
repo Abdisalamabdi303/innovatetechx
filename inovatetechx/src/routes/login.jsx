@@ -6,7 +6,7 @@ import Welcome from '../components/Dashboard/Welcome';
 import TaskCard from '../components/Dashboard/TaskCard';
 import Banner from '../components/Dashboard/Banner';
 
- function Login() {
+ function Dashboard() {
     return (
         <div className='loginjsx'>
             <Dashhead/>
@@ -18,4 +18,4 @@ import Banner from '../components/Dashboard/Banner';
         </div>
     )
 }
-export default Login;
+export default Dashboard;

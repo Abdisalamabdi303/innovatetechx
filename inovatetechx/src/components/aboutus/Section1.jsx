@@ -15,6 +15,7 @@ function Section1() {
                     <Link to="/" className="nav-link active">Home</Link>
                     <Link to="/about" className="nav-link">About</Link>
                     <Link to="/contact" className="nav-link">Contact</Link>
+                    <Link to='/dashboard'className="nav-link">Learn</Link>
             </div>
                 <div className="navbar-auth">
                     <Link to='/login'className="btn-login">Login</Link>
