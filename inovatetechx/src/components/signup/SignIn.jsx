@@ -7,7 +7,7 @@ function SignIn() {
             <h2>
                 CREATE AN ACCOUNT
             </h2>
-            <form action="#" type="submit">
+            <form action="#">
                 <input type="text" placeholder='Your Name'/>
                 <input type="email" placeholder='Your Email'/>
                 <input type="password" placeholder='Password' />
@@ -17,7 +17,7 @@ function SignIn() {
                 <input type="checkbox" name="checkbox"  />
                 I agree to the the <a href='/'>Terms and Condtions</a>
             </div>
-            <button className="loginbtn">
+            <button type='submit' className="loginbtn">
                 REGISTER
             </button>
             <h3>
